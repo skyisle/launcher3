@@ -13,7 +13,7 @@ import android.view.Gravity;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 
-import com.android.launcher.R;
+import com.android.launcher3.R;
 
 public class AppWidgetResizeFrame extends FrameLayout {
     private LauncherAppWidgetHostView mWidgetView;

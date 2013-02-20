@@ -41,7 +41,7 @@ import android.widget.ImageView;
 import android.widget.ListAdapter;
 import android.widget.SpinnerAdapter;
 
-import com.android.launcher.R;
+import com.android.launcher3.R;
 
 import java.io.IOException;
 import java.util.ArrayList;

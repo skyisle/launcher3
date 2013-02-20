@@ -16,7 +16,7 @@
 
 package com.android.launcher2;
 
-import com.android.launcher.R;
+import com.android.launcher3.R;
 
 import android.app.Activity;
 import android.app.DialogFragment;

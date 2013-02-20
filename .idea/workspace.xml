@@ -27,12 +27,42 @@
     </device-configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="957b6678-6da0-4219-b72d-781288b4d8c0" name="Default" comment="" />
+    <list default="true" id="957b6678-6da0-4219-b72d-781288b4d8c0" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/launcher2/AddAdapter.java" afterPath="$PROJECT_DIR$/src/com/android/launcher2/AddAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/launcher2/AppWidgetResizeFrame.java" afterPath="$PROJECT_DIR$/src/com/android/launcher2/AppWidgetResizeFrame.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/launcher2/AppsCustomizeTabHost.java" afterPath="$PROJECT_DIR$/src/com/android/launcher2/AppsCustomizeTabHost.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/launcher2/ButtonDropTarget.java" afterPath="$PROJECT_DIR$/src/com/android/launcher2/ButtonDropTarget.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/launcher2/DeleteDropTarget.java" afterPath="$PROJECT_DIR$/src/com/android/launcher2/DeleteDropTarget.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/launcher2/DragController.java" afterPath="$PROJECT_DIR$/src/com/android/launcher2/DragController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/launcher2/DragLayer.java" afterPath="$PROJECT_DIR$/src/com/android/launcher2/DragLayer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/launcher2/DragView.java" afterPath="$PROJECT_DIR$/src/com/android/launcher2/DragView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/launcher2/FocusHelper.java" afterPath="$PROJECT_DIR$/src/com/android/launcher2/FocusHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/launcher2/Folder.java" afterPath="$PROJECT_DIR$/src/com/android/launcher2/Folder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/launcher2/FolderIcon.java" afterPath="$PROJECT_DIR$/src/com/android/launcher2/FolderIcon.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/launcher2/InfoDropTarget.java" afterPath="$PROJECT_DIR$/src/com/android/launcher2/InfoDropTarget.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/launcher2/InstallShortcutReceiver.java" afterPath="$PROJECT_DIR$/src/com/android/launcher2/InstallShortcutReceiver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/launcher2/InstallWidgetReceiver.java" afterPath="$PROJECT_DIR$/src/com/android/launcher2/InstallWidgetReceiver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/launcher2/LauncherAppWidgetHostView.java" afterPath="$PROJECT_DIR$/src/com/android/launcher2/LauncherAppWidgetHostView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/launcher2/LauncherApplication.java" afterPath="$PROJECT_DIR$/src/com/android/launcher2/LauncherApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/launcher2/LauncherModel.java" afterPath="$PROJECT_DIR$/src/com/android/launcher2/LauncherModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/launcher2/PagedViewCellLayout.java" afterPath="$PROJECT_DIR$/src/com/android/launcher2/PagedViewCellLayout.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/launcher2/PagedViewWidget.java" afterPath="$PROJECT_DIR$/src/com/android/launcher2/PagedViewWidget.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/launcher2/SearchDropTargetBar.java" afterPath="$PROJECT_DIR$/src/com/android/launcher2/SearchDropTargetBar.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/launcher2/UninstallShortcutReceiver.java" afterPath="$PROJECT_DIR$/src/com/android/launcher2/UninstallShortcutReceiver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/launcher2/UserInitializeReceiver.java" afterPath="$PROJECT_DIR$/src/com/android/launcher2/UserInitializeReceiver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/launcher2/Utilities.java" afterPath="$PROJECT_DIR$/src/com/android/launcher2/Utilities.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/launcher2/WallpaperChooser.java" afterPath="$PROJECT_DIR$/src/com/android/launcher2/WallpaperChooser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/launcher2/WallpaperChooserDialogFragment.java" afterPath="$PROJECT_DIR$/src/com/android/launcher2/WallpaperChooserDialogFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Launcher2.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.java" changelist="957b6678-6da0-4219-b72d-781288b4d8c0" time="1361365345157" ignored="false" />
+    <file path="/fragment.java" changelist="957b6678-6da0-4219-b72d-781288b4d8c0" time="1361366926794" ignored="false" />
     <file path="/all_apps_cling.xml" changelist="957b6678-6da0-4219-b72d-781288b4d8c0" time="1361364349848" ignored="false" />
     <file path="/AndroidManifest.xml" changelist="957b6678-6da0-4219-b72d-781288b4d8c0" time="1361365302708" ignored="false" />
+    <file path="/Dummy.txt" changelist="957b6678-6da0-4219-b72d-781288b4d8c0" time="1361366943715" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,10 +121,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LauncherProvider.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/android/launcher2/LauncherProvider.java">
+      <file leaf-file-name="Utilities.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/android/launcher2/Utilities.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="26" selection-start="3415" selection-end="3415" vertical-scroll-proportion="0.0">
+            <state line="36" column="28" selection-start="1286" selection-end="1286" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WallpaperChooserDialogFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/android/launcher2/WallpaperChooserDialogFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="141" column="37" selection-start="4646" selection-end="4646" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,75 +141,73 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MoreCloseables.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ex/common/java/com/android/common/io/MoreCloseables.java">
+      <file leaf-file-name="InfoDropTarget.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/android/launcher2/InfoDropTarget.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="13" selection-start="776" selection-end="776" vertical-scroll-proportion="0.0">
+            <state line="28" column="28" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoggingEvents.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ex/common/java/com/android/common/speech/LoggingEvents.java">
+      <file leaf-file-name="UninstallShortcutReceiver.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/android/launcher2/UninstallShortcutReceiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="13" selection-start="971" selection-end="971" vertical-scroll-proportion="0.0">
+            <state line="27" column="28" selection-start="954" selection-end="954" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Recognition.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ex/common/java/com/android/common/speech/Recognition.java">
+      <file leaf-file-name="InstallShortcutReceiver.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/android/launcher2/InstallShortcutReceiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="13" selection-start="815" selection-end="815" vertical-scroll-proportion="0.0">
+            <state line="26" column="28" selection-start="940" selection-end="940" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CompositeCursorAdapter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ex/common/java/com/android/common/widget/CompositeCursorAdapter.java">
+      <file leaf-file-name="FocusHelper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/android/launcher2/FocusHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="47" selection-start="1008" selection-end="1008" vertical-scroll-proportion="0.0">
+            <state line="26" column="28" selection-start="907" selection-end="907" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LauncherRotationStressTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/stress/src/com/android/launcher2/stress/LauncherRotationStressTest.java">
+      <file leaf-file-name="AddAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/android/launcher2/AddAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="17" selection-start="1508" selection-end="1508" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/stress/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="48" selection-start="1111" selection-end="1111" vertical-scroll-proportion="0.0">
+            <state line="29" column="28" selection-start="984" selection-end="984" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fill_screens.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fill_screens.py">
+      <file leaf-file-name="DeleteDropTarget.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/android/launcher2/DeleteDropTarget.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="36" column="28" selection-start="1378" selection-end="1378" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NOTICE" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/NOTICE">
+      <file leaf-file-name="WallpaperChooser.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/android/launcher2/WallpaperChooser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.1731844">
+            <state line="18" column="28" selection-start="681" selection-end="681" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserInitializeReceiver.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/android/launcher2/UserInitializeReceiver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="11" selection-start="865" selection-end="865" vertical-scroll-proportion="0.45251396">
               <folding />
             </state>
           </provider>
@@ -183,25 +220,33 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/res/layout-port/launcher.xml" />
-        <option value="$PROJECT_DIR$/res/xml-sw600dp/default_workspace.xml" />
-        <option value="$PROJECT_DIR$/src/com/android/launcher2/Workspace.java" />
-        <option value="$PROJECT_DIR$/src/com/android/launcher2/PagedView.java" />
-        <option value="$PROJECT_DIR$/src/com/android/launcher2/CellLayout.java" />
-        <option value="$PROJECT_DIR$/src/com/android/launcher2/Hotseat.java" />
-        <option value="$PROJECT_DIR$/src/com/android/launcher2/HolographicLinearLayout.java" />
-        <option value="$PROJECT_DIR$/src/com/android/launcher2/HandleView.java" />
-        <option value="$PROJECT_DIR$/src/com/android/launcher2/AppsCustomizePagedView.java" />
-        <option value="$PROJECT_DIR$/src/com/android/launcher2/StrokedTextView.java" />
-        <option value="$PROJECT_DIR$/src/com/android/launcher2/DrawableStateProxyView.java" />
-        <option value="$PROJECT_DIR$/src/com/android/launcher2/Cling.java" />
-        <option value="$PROJECT_DIR$/src/com/android/launcher2/Launcher.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/com/android/launcher2/LauncherProvider.java" />
-        <option value="$PROJECT_DIR$/tests/stress/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/android/launcher2/PagedViewWidget.java" />
+        <option value="$PROJECT_DIR$/src/com/android/launcher2/DragView.java" />
+        <option value="$PROJECT_DIR$/src/com/android/launcher2/AppWidgetResizeFrame.java" />
+        <option value="$PROJECT_DIR$/src/com/android/launcher2/LauncherAppWidgetHostView.java" />
+        <option value="$PROJECT_DIR$/src/com/android/launcher2/ButtonDropTarget.java" />
+        <option value="$PROJECT_DIR$/src/com/android/launcher2/PagedViewCellLayout.java" />
+        <option value="$PROJECT_DIR$/src/com/android/launcher2/Utilities.java" />
+        <option value="$PROJECT_DIR$/src/com/android/launcher2/WallpaperChooserDialogFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/android/launcher2/InfoDropTarget.java" />
+        <option value="$PROJECT_DIR$/src/com/android/launcher2/UninstallShortcutReceiver.java" />
+        <option value="$PROJECT_DIR$/src/com/android/launcher2/InstallShortcutReceiver.java" />
+        <option value="$PROJECT_DIR$/src/com/android/launcher2/FocusHelper.java" />
+        <option value="$PROJECT_DIR$/src/com/android/launcher2/AddAdapter.java" />
+        <option value="$PROJECT_DIR$/src/com/android/launcher2/DeleteDropTarget.java" />
+        <option value="$PROJECT_DIR$/src/com/android/launcher2/WallpaperChooser.java" />
+        <option value="$PROJECT_DIR$/src/com/android/launcher2/UserInitializeReceiver.java" />
       </list>
     </option>
   </component>
@@ -211,7 +256,7 @@
     <option name="width" value="1356" />
     <option name="height" value="713" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -253,6 +298,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Launcher2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Launcher2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Launcher2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="launcher2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -380,8 +443,8 @@
       <option name="ACTIVITY_CLASS" value="com.android.launcher2.Launcher" />
       <option name="MODE" value="specific_activity" />
       <option name="DEPLOY" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="PREFERRED_AVD" value="Intel_4.1" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
+      <option name="PREFERRED_AVD" value="" />
       <option name="COMMAND_LINE" value="" />
       <option name="WIPE_USER_DATA" value="false" />
       <option name="DISABLE_BOOT_ANIMATION" value="false" />
@@ -410,6 +473,24 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="957b6678-6da0-4219-b72d-781288b4d8c0" name="Default" comment="" />
@@ -420,12 +501,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="61" y="98" width="1356" height="713" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977098" sideWeight="0.44519392" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2900506" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -437,11 +519,10 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23740458" sideWeight="0.6897133" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23740458" sideWeight="0.6897133" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31028667" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -507,122 +588,116 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/android/launcher2/AppsCustomizePagedView.java">
+    <entry file="file://$PROJECT_DIR$/src/com/android/launcher2/PagedViewWidget.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="28" selection-start="2190" selection-end="2190" vertical-scroll-proportion="0.0">
+        <state line="31" column="28" selection-start="1105" selection-end="1105" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/android/launcher2/StrokedTextView.java">
+    <entry file="file://$PROJECT_DIR$/src/com/android/launcher2/DragView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="27" selection-start="1022" selection-end="1022" vertical-scroll-proportion="0.0">
+        <state line="32" column="28" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/android/launcher2/DrawableStateProxyView.java">
+    <entry file="file://$PROJECT_DIR$/src/com/android/launcher2/AppWidgetResizeFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="28" selection-start="882" selection-end="882" vertical-scroll-proportion="0.0">
+        <state line="15" column="28" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/android/launcher2/Cling.java">
+    <entry file="file://$PROJECT_DIR$/src/com/android/launcher2/LauncherAppWidgetHostView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="50" selection-start="2043" selection-end="2043" vertical-scroll-proportion="0.0">
+        <state line="26" column="28" selection-start="919" selection-end="919" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/android/launcher2/ButtonDropTarget.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="28" selection-start="923" selection-end="923" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/android/launcher2/PagedViewCellLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="28" selection-start="907" selection-end="907" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/android/launcher2/Utilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="28" selection-start="1286" selection-end="1286" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/android/launcher2/WallpaperChooserDialogFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="141" column="37" selection-start="4646" selection-end="4646" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/android/launcher2/Launcher.java">
+    <entry file="file://$PROJECT_DIR$/src/com/android/launcher2/InfoDropTarget.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1745" column="14" selection-start="69847" selection-end="69847" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="33" selection-start="6599" selection-end="6629" vertical-scroll-proportion="-11.68">
+        <state line="28" column="28" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/android/launcher2/LauncherProvider.java">
+    <entry file="file://$PROJECT_DIR$/src/com/android/launcher2/UninstallShortcutReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="26" selection-start="3415" selection-end="3415" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex/common/java/com/android/common/io/MoreCloseables.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="13" selection-start="776" selection-end="776" vertical-scroll-proportion="0.0">
+        <state line="27" column="28" selection-start="954" selection-end="954" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex/common/java/com/android/common/speech/LoggingEvents.java">
+    <entry file="file://$PROJECT_DIR$/src/com/android/launcher2/InstallShortcutReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="13" selection-start="971" selection-end="971" vertical-scroll-proportion="0.0">
+        <state line="26" column="28" selection-start="940" selection-end="940" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex/common/java/com/android/common/speech/Recognition.java">
+    <entry file="file://$PROJECT_DIR$/src/com/android/launcher2/FocusHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="13" selection-start="815" selection-end="815" vertical-scroll-proportion="0.0">
+        <state line="26" column="28" selection-start="907" selection-end="907" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex/common/java/com/android/common/widget/CompositeCursorAdapter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/android/launcher2/AddAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="47" selection-start="1008" selection-end="1008" vertical-scroll-proportion="0.0">
+        <state line="29" column="28" selection-start="984" selection-end="984" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/stress/src/com/android/launcher2/stress/LauncherRotationStressTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/android/launcher2/DeleteDropTarget.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="17" selection-start="1508" selection-end="1508" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/stress/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="48" selection-start="1111" selection-end="1111" vertical-scroll-proportion="0.0">
+        <state line="36" column="28" selection-start="1378" selection-end="1378" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fill_screens.py">
+    <entry file="file://$PROJECT_DIR$/src/com/android/launcher2/WallpaperChooser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="18" column="28" selection-start="681" selection-end="681" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/print_db.py">
+    <entry file="file://$PROJECT_DIR$/src/com/android/launcher2/UserInitializeReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.41899443">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NOTICE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.1731844">
+        <state line="26" column="11" selection-start="865" selection-end="865" vertical-scroll-proportion="0.45251396">
           <folding />
         </state>
       </provider>

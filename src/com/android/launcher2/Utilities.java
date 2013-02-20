@@ -34,7 +34,7 @@ import android.graphics.drawable.Drawable;
 import android.graphics.drawable.PaintDrawable;
 import android.util.DisplayMetrics;
 
-import com.android.launcher.R;
+import com.android.launcher3.R;
 
 /**
  * Various utilities shared amongst the Launcher's classes.
