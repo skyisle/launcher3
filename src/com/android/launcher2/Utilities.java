@@ -34,7 +34,7 @@ import android.graphics.drawable.Drawable;
 import android.graphics.drawable.PaintDrawable;
 import android.util.DisplayMetrics;
 
-import com.android.launcher3.R;
+import com.alanjeon.dalinaumlauncher.R;
 
 /**
  * Various utilities shared amongst the Launcher's classes.

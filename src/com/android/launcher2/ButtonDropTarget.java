@@ -24,7 +24,7 @@ import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.widget.TextView;
 
-import com.android.launcher3.R;
+import com.alanjeon.dalinaumlauncher.R;
 
 
 /**

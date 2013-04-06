@@ -25,7 +25,7 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.widget.Toast;
 
-import com.android.launcher3.R;
+import com.alanjeon.dalinaumlauncher.R;
 
 import java.net.URISyntaxException;
 import java.util.ArrayList;

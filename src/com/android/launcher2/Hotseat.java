@@ -26,7 +26,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import com.android.launcher3.R;
+import com.alanjeon.dalinaumlauncher.R;
 
 public class Hotseat extends FrameLayout {
     @SuppressWarnings("unused")

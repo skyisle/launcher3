@@ -30,7 +30,7 @@ import android.graphics.Rect;
 import android.view.View;
 import android.view.animation.DecelerateInterpolator;
 
-import com.android.launcher3.R;
+import com.alanjeon.dalinaumlauncher.R;
 
 public class DragView extends View {
     private static float sDragAlpha = 1f;
@@ -241,7 +241,6 @@ public class DragView extends View {
     /**
      * Create a window containing this view and show it.
      *
-     * @param windowToken obtained from v.getWindowToken() from one of your views
      * @param touchX the x coordinate the user touched in DragLayer coordinates
      * @param touchY the y coordinate the user touched in DragLayer coordinates
      */

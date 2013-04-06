@@ -26,6 +26,7 @@ import android.graphics.Rect;
 import android.os.Bundle;
 import android.os.Parcel;
 import android.os.Parcelable;
+import android.support.v4.view.accessibility.AccessibilityNodeInfoCompat;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.InputDevice;
@@ -42,7 +43,7 @@ import android.view.accessibility.AccessibilityNodeInfo;
 import android.view.animation.Interpolator;
 import android.widget.Scroller;
 
-import com.android.launcher3.R;
+import com.alanjeon.dalinaumlauncher.R;
 
 import java.util.ArrayList;
 
@@ -1876,10 +1877,10 @@ public abstract class PagedView extends ViewGroup implements ViewGroup.OnHierarc
         super.onInitializeAccessibilityNodeInfo(info);
         info.setScrollable(getPageCount() > 1);
         if (getCurrentPage() < getPageCount() - 1) {
-            info.addAction(AccessibilityNodeInfo.ACTION_SCROLL_FORWARD);
+            info.addAction(AccessibilityNodeInfoCompat.ACTION_SCROLL_FORWARD);
         }
         if (getCurrentPage() > 0) {
-            info.addAction(AccessibilityNodeInfo.ACTION_SCROLL_BACKWARD);
+            info.addAction(AccessibilityNodeInfoCompat.ACTION_SCROLL_BACKWARD);
         }
     }
 

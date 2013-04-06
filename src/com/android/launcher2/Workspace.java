@@ -41,6 +41,7 @@ import android.graphics.Region.Op;
 import android.graphics.drawable.Drawable;
 import android.os.IBinder;
 import android.os.Parcelable;
+import android.support.v4.view.ViewCompat;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.util.SparseArray;
@@ -52,7 +53,7 @@ import android.view.animation.DecelerateInterpolator;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.android.launcher3.R;
+import com.alanjeon.dalinaumlauncher.R;
 import com.android.launcher2.FolderIcon.FolderRingAnimator;
 import com.android.launcher2.LauncherSettings.Favorites;
 
@@ -309,7 +310,7 @@ public class Workspace extends SmoothPagedView
 
             Point minDims = new Point();
             Point maxDims = new Point();
-            mLauncher.getWindowManager().getDefaultDisplay().getCurrentSizeRange(minDims, maxDims);
+            DisplayCompt.getCurrentSizeRange(mLauncher.getWindowManager().getDefaultDisplay(), minDims, maxDims);
 
             cellCountX = 1;
             while (CellLayout.widthInPortrait(res, cellCountX + 1) <= minDims.x) {
@@ -346,8 +347,8 @@ public class Workspace extends SmoothPagedView
         setMotionEventSplittingEnabled(true);
 
         // Unless otherwise specified this view is important for accessibility.
-        if (getImportantForAccessibility() == View.IMPORTANT_FOR_ACCESSIBILITY_AUTO) {
-            setImportantForAccessibility(View.IMPORTANT_FOR_ACCESSIBILITY_YES);
+        if (ViewCompat.getImportantForAccessibility(this) == View.IMPORTANT_FOR_ACCESSIBILITY_AUTO) {
+            ViewCompat.setImportantForAccessibility(this, View.IMPORTANT_FOR_ACCESSIBILITY_YES);
         }
     }
 
@@ -838,7 +839,7 @@ public class Workspace extends SmoothPagedView
     protected void setWallpaperDimension() {
         Point minDims = new Point();
         Point maxDims = new Point();
-        mLauncher.getWindowManager().getDefaultDisplay().getCurrentSizeRange(minDims, maxDims);
+        DisplayCompt.getCurrentSizeRange(mLauncher.getWindowManager().getDefaultDisplay(), minDims, maxDims);
 
         final int maxDim = Math.max(maxDims.x, maxDims.y);
         final int minDim = Math.min(minDims.x, minDims.y);
@@ -2400,7 +2401,7 @@ public class Workspace extends SmoothPagedView
         Display display = launcher.getWindowManager().getDefaultDisplay();
         Point smallestSize = new Point();
         Point largestSize = new Point();
-        display.getCurrentSizeRange(smallestSize, largestSize);
+        DisplayCompt.getCurrentSizeRange(display, smallestSize, largestSize);
         if (orientation == CellLayout.LANDSCAPE) {
             if (mLandscapeCellLayoutMetrics == null) {
                 int paddingLeft = res.getDimensionPixelSize(R.dimen.workspace_left_padding_land);

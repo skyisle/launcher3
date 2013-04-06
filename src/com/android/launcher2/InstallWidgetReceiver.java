@@ -33,7 +33,7 @@ import android.widget.ImageView;
 import android.widget.ListAdapter;
 import android.widget.TextView;
 
-import com.android.launcher3.R;
+import com.alanjeon.dalinaumlauncher.R;
 
 
 /**

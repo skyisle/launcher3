@@ -24,7 +24,7 @@ import android.view.View;
 import android.view.ViewDebug;
 import android.view.ViewGroup;
 
-import com.android.launcher3.R;
+import com.alanjeon.dalinaumlauncher.R;
 
 /**
  * An abstraction of the original CellLayout which supports laying out items

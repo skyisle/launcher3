@@ -33,7 +33,7 @@ import android.view.View;
 import android.view.ViewConfiguration;
 import android.view.inputmethod.InputMethodManager;
 
-import com.android.launcher3.R;
+import com.alanjeon.dalinaumlauncher.R;
 
 import java.util.ArrayList;
 

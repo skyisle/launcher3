@@ -41,7 +41,7 @@ import android.widget.ImageView;
 import android.widget.ListAdapter;
 import android.widget.SpinnerAdapter;
 
-import com.android.launcher3.R;
+import com.alanjeon.dalinaumlauncher.R;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -137,7 +137,7 @@ public class WallpaperChooserDialogFragment extends DialogFragment implements
          */
         if (mEmbedded) {
             View view = inflater.inflate(R.layout.wallpaper_chooser, container, false);
-            view.setBackground(mWallpaperDrawable);
+            view.setBackgroundDrawable(mWallpaperDrawable);
 
             final Gallery gallery = (Gallery) view.findViewById(R.id.gallery);
             gallery.setCallbackDuringFling(false);

@@ -19,9 +19,11 @@
 -->
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.launcher3">
+    package="com.alanjeon.dalinaumlauncher"
+    android:versionCode="2"
+    android:versionName="0.0.2">
 
-    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="17"/>
+    <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="17"/>
     <original-package android:name="com.android.launcher2" />
 
     <permission
@@ -65,7 +67,7 @@
     <application
         android:name="com.android.launcher2.LauncherApplication"
         android:label="@string/application_name"
-        android:icon="@mipmap/ic_launcher_home"
+        android:icon="@mipmap/ic_launcher"
         android:hardwareAccelerated="true"
         android:largeHeap="@bool/config_largeHeap"
         android:supportsRtl="true">
@@ -139,7 +141,7 @@
         <!-- The settings provider contains Home's data, like the workspace favorites -->
         <provider
             android:name="com.android.launcher2.LauncherProvider"
-            android:authorities="com.android.launcher3.settings"
+            android:authorities="com.alanjeon.dalinaumlauncher.settings"
             android:exported="true"
             android:writePermission="com.android.launcher.permission.WRITE_SETTINGS"
             android:readPermission="com.android.launcher.permission.READ_SETTINGS" />

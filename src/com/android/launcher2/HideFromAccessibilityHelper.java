@@ -16,6 +16,7 @@
 
 package com.android.launcher2;
 
+import android.support.v4.view.ViewCompat;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewGroup.OnHierarchyChangeListener;
@@ -39,8 +40,8 @@ public class HideFromAccessibilityHelper implements OnHierarchyChangeListener {
     }
 
     private void setImportantForAccessibilityToNoHelper(View v) {
-        mPreviousValues.put(v, v.getImportantForAccessibility());
-        v.setImportantForAccessibility(View.IMPORTANT_FOR_ACCESSIBILITY_NO);
+        mPreviousValues.put(v, ViewCompat.getImportantForAccessibility(v));
+        ViewCompat.setImportantForAccessibility(v, View.IMPORTANT_FOR_ACCESSIBILITY_NO);
 
         // Call method on children recursively
         if (v instanceof ViewGroup) {
@@ -64,7 +65,7 @@ public class HideFromAccessibilityHelper implements OnHierarchyChangeListener {
     }
 
     private void restoreImportantForAccessibilityHelper(View v) {
-        v.setImportantForAccessibility(mPreviousValues.get(v));
+        ViewCompat.setImportantForAccessibility(v, mPreviousValues.get(v));
         mPreviousValues.remove(v);
 
         // Call method on children recursively

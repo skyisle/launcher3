@@ -27,7 +27,7 @@ import android.view.View;
 import android.view.animation.AccelerateInterpolator;
 import android.widget.FrameLayout;
 
-import com.android.launcher3.R;
+import com.alanjeon.dalinaumlauncher.R;
 
 /*
  * Ths bar will manage the transition between the QSB search bar and the delete drop
@@ -217,7 +217,7 @@ public class SearchDropTargetBar extends FrameLayout implements DragController.D
                 mQSBSearchBar.setBackgroundResource(0);
             } else if (mPreviousBackground != null && (searchVisible || voiceVisible)) {
                 // Restore the background
-                mQSBSearchBar.setBackground(mPreviousBackground);
+                mQSBSearchBar.setBackgroundDrawable(mPreviousBackground);
             }
         }
     }

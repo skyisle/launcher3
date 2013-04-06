@@ -46,6 +46,7 @@ import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Process;
+import android.support.v4.view.ViewCompat;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.Gravity;
@@ -59,7 +60,7 @@ import android.widget.GridLayout;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.android.launcher3.R;
+import com.alanjeon.dalinaumlauncher.R;
 import com.android.launcher2.DropTarget.DragObject;
 
 import java.lang.ref.WeakReference;
@@ -356,8 +357,8 @@ public class AppsCustomizePagedView extends PagedViewWithDraggableItems implemen
         mFadeInAdjacentScreens = false;
 
         // Unless otherwise specified this view is important for accessibility.
-        if (getImportantForAccessibility() == View.IMPORTANT_FOR_ACCESSIBILITY_AUTO) {
-            setImportantForAccessibility(View.IMPORTANT_FOR_ACCESSIBILITY_YES);
+        if (ViewCompat.getImportantForAccessibility(this) == View.IMPORTANT_FOR_ACCESSIBILITY_AUTO) {
+            ViewCompat.setImportantForAccessibility(this, View.IMPORTANT_FOR_ACCESSIBILITY_YES);
         }
     }
 
@@ -471,7 +472,7 @@ public class AppsCustomizePagedView extends PagedViewWithDraggableItems implemen
         mWidgetSpacingLayout.measure(widthSpec, heightSpec);
         mContentWidth = mWidgetSpacingLayout.getContentWidth();
 
-        AppsCustomizeTabHost host = (AppsCustomizeTabHost) getTabHost();
+        AppsCustomizeTabHost host = getTabHost();
         final boolean hostIsTransitioning = host.isTransitioning();
 
         // Restore the page
@@ -529,6 +530,19 @@ public class AppsCustomizePagedView extends PagedViewWithDraggableItems implemen
             AppWidgetManager.getInstance(mLauncher).getInstalledProviders();
         Intent shortcutsIntent = new Intent(Intent.ACTION_CREATE_SHORTCUT);
         List<ResolveInfo> shortcuts = mPackageManager.queryIntentActivities(shortcutsIntent, 0);
+        addInstalledAppWidgets(widgets);
+        mWidgets.addAll(shortcuts);
+        Collections.sort(mWidgets,
+                new LauncherModel.WidgetAndShortcutNameComparator(mPackageManager));
+        updatePageCounts();
+        invalidateOnDataChange();
+    }
+
+    private void addInstalledAppWidgets(List<AppWidgetProviderInfo> widgets) {
+        if (!UiUtils.hasJellyBean()) {
+            return;
+        }
+
         for (AppWidgetProviderInfo widget : widgets) {
             if (widget.minWidth > 0 && widget.minHeight > 0) {
                 // Ensure that all widgets we show can be added on a workspace of this size
@@ -548,11 +562,6 @@ public class AppsCustomizePagedView extends PagedViewWithDraggableItems implemen
                         widget.minWidth + ", " + widget.minHeight + ")");
             }
         }
-        mWidgets.addAll(shortcuts);
-        Collections.sort(mWidgets,
-                new LauncherModel.WidgetAndShortcutNameComparator(mPackageManager));
-        updatePageCounts();
-        invalidateOnDataChange();
     }
 
     @Override
@@ -620,7 +629,7 @@ public class AppsCustomizePagedView extends PagedViewWithDraggableItems implemen
         Bundle options = null;
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
             AppWidgetResizeFrame.getWidgetSizeRanges(mLauncher, info.spanX, info.spanY, mTmpRect);
-            Rect padding = AppWidgetHostView.getDefaultPaddingForWidget(mLauncher,
+            Rect padding = AppWidgetHostViewCompat.getDefaultPaddingForWidget(mLauncher,
                     info.componentName, null);
 
             float density = getResources().getDisplayMetrics().density;
@@ -657,12 +666,14 @@ public class AppsCustomizePagedView extends PagedViewWithDraggableItems implemen
                 // Options will be null for platforms with JB or lower, so this serves as an
                 // SDK level check.
                 if (options == null) {
-                    if (AppWidgetManager.getInstance(mLauncher).bindAppWidgetIdIfAllowed(
+                    if (AppWidgetManagerCompat.bindAppWidgetIdIfAllowed(
+                            AppWidgetManager.getInstance(mLauncher),
                             mWidgetLoadingId, info.componentName)) {
                         mWidgetCleanupState = WIDGET_BOUND;
                     }
                 } else {
-                    if (AppWidgetManager.getInstance(mLauncher).bindAppWidgetIdIfAllowed(
+                    if (AppWidgetManagerCompat.bindAppWidgetIdIfAllowed(
+                            AppWidgetManager.getInstance(mLauncher),
                             mWidgetLoadingId, info.componentName, options)) {
                         mWidgetCleanupState = WIDGET_BOUND;
                     }

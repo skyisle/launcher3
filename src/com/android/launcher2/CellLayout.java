@@ -48,7 +48,7 @@ import android.view.animation.Animation;
 import android.view.animation.DecelerateInterpolator;
 import android.view.animation.LayoutAnimationController;
 
-import com.android.launcher3.R;
+import com.alanjeon.dalinaumlauncher.R;
 import com.android.launcher2.FolderIcon.FolderRingAnimator;
 
 import java.util.ArrayList;

@@ -47,7 +47,7 @@ import android.os.RemoteException;
 import android.os.SystemClock;
 import android.util.Log;
 
-import com.android.launcher3.R;
+import com.alanjeon.dalinaumlauncher.R;
 import com.android.launcher2.InstallWidgetReceiver.WidgetMimeTypeHandlerData;
 
 import java.lang.ref.WeakReference;

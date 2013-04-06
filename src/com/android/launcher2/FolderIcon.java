@@ -39,7 +39,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.android.launcher3.R;
+import com.alanjeon.dalinaumlauncher.R;
 import com.android.launcher2.DropTarget.DragObject;
 import com.android.launcher2.FolderInfo.FolderListener;
 

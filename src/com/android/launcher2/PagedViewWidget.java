@@ -29,7 +29,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.android.launcher3.R;
+import com.alanjeon.dalinaumlauncher.R;
 
 /**
  * The linear layout used strictly for the widget/wallpaper tab of the customization tray

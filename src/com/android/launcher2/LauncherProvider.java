@@ -49,7 +49,7 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.util.Xml;
 
-import com.android.launcher3.R;
+import com.alanjeon.dalinaumlauncher.R;
 import com.android.launcher2.LauncherSettings.Favorites;
 
 import org.xmlpull.v1.XmlPullParser;
@@ -68,7 +68,7 @@ public class LauncherProvider extends ContentProvider {
 
     private static final int DATABASE_VERSION = 12;
 
-    static final String AUTHORITY = "com.android.launcher3.settings";
+    static final String AUTHORITY = "com.alanjeon.dalinaumlauncher.settings";
 
     static final String TABLE_FAVORITES = "favorites";
     static final String PARAMETER_NOTIFY = "notify";
@@ -734,17 +734,17 @@ public class LauncherProvider extends ContentProvider {
 
                         if (favoriteType == Favorites.ITEM_TYPE_WIDGET_CLOCK) {
                             // TODO: check return value
-                            appWidgetManager.bindAppWidgetIdIfAllowed(appWidgetId,
+                            AppWidgetManagerCompat.bindAppWidgetIdIfAllowed(appWidgetManager, appWidgetId,
                                     new ComponentName("com.android.alarmclock",
                                     "com.android.alarmclock.AnalogAppWidgetProvider"));
                         } else if (favoriteType == Favorites.ITEM_TYPE_WIDGET_PHOTO_FRAME) {
                             // TODO: check return value
-                            appWidgetManager.bindAppWidgetIdIfAllowed(appWidgetId,
+                            AppWidgetManagerCompat.bindAppWidgetIdIfAllowed(appWidgetManager, appWidgetId,
                                     new ComponentName("com.android.camera",
                                     "com.android.camera.PhotoAppWidgetProvider"));
                         } else if (favoriteType == Favorites.ITEM_TYPE_WIDGET_SEARCH) {
                             // TODO: check return value
-                            appWidgetManager.bindAppWidgetIdIfAllowed(appWidgetId,
+                            AppWidgetManagerCompat.bindAppWidgetIdIfAllowed(appWidgetManager, appWidgetId,
                                     getSearchWidgetProvider());
                         }
                     } catch (RuntimeException ex) {
@@ -1086,7 +1086,7 @@ public class LauncherProvider extends ContentProvider {
                 allocatedAppWidgets = true;
 
                 // TODO: need to check return value
-                appWidgetManager.bindAppWidgetIdIfAllowed(appWidgetId, cn);
+                AppWidgetManagerCompat.bindAppWidgetIdIfAllowed(appWidgetManager, appWidgetId, cn);
 
                 // Send a broadcast to configure the widget
                 if (extras != null && !extras.isEmpty()) {

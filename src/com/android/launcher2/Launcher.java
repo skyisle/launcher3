@@ -28,7 +28,6 @@ import android.animation.ValueAnimator;
 import android.animation.ValueAnimator.AnimatorUpdateListener;
 import android.app.Activity;
 import android.app.ActivityManager;
-import android.app.ActivityOptions;
 import android.app.SearchManager;
 import android.appwidget.AppWidgetHostView;
 import android.appwidget.AppWidgetManager;
@@ -65,6 +64,7 @@ import android.os.StrictMode;
 import android.os.SystemClock;
 import android.provider.Settings;
 import android.speech.RecognizerIntent;
+import android.support.v4.app.ActivityOptionsCompat;
 import android.text.Selection;
 import android.text.SpannableStringBuilder;
 import android.text.TextUtils;
@@ -95,7 +95,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.common.Search;
-import com.android.launcher3.R;
+import com.alanjeon.dalinaumlauncher.R;
 import com.android.launcher2.DropTarget.DragObject;
 
 import java.io.DataInputStream;
@@ -1094,7 +1094,7 @@ public final class Launcher extends Activity
 
     static int[] getSpanForWidget(Context context, ComponentName component, int minWidth,
             int minHeight) {
-        Rect padding = AppWidgetHostView.getDefaultPaddingForWidget(context, component, null);
+        Rect padding = AppWidgetHostViewCompat.getDefaultPaddingForWidget(context, component, null);
         // We want to account for the extra amount of padding that we are adding to the widget
         // to ensure that it gets the full amount of space that it has requested
         int requiredWidth = minWidth + padding.left + padding.right;
@@ -1199,7 +1199,9 @@ public final class Launcher extends Activity
 
             launcherInfo.hostView.setTag(launcherInfo);
             launcherInfo.hostView.setVisibility(View.VISIBLE);
-            launcherInfo.notifyWidgetSizeChanged(this);
+            if (UiUtils.hasJellyBean()) {
+                launcherInfo.notifyWidgetSizeChanged(this);
+            }
 
             mWorkspace.addInScreen(launcherInfo.hostView, container, screen, cellXY[0], cellXY[1],
                     launcherInfo.spanX, launcherInfo.spanY, isWorkspaceLocked());
@@ -1769,20 +1771,18 @@ public final class Launcher extends Activity
             appWidgetId = hostView.getAppWidgetId();
             addAppWidgetImpl(appWidgetId, info, hostView, info.info);
         } else {
+            appWidgetId = getAppWidgetHost().allocateAppWidgetId();
+
+            if (!UiUtils.hasJellyBean()) {
+                addAppWidgetImpl(appWidgetId, info, null, info.info);
+                return;
+            }
             // In this case, we either need to start an activity to get permission to bind
             // the widget, or we need to start an activity to configure the widget, or both.
-            appWidgetId = getAppWidgetHost().allocateAppWidgetId();
             Bundle options = info.bindOptions;
 
-            boolean success = false;
-            if (options != null) {
-                success = mAppWidgetManager.bindAppWidgetIdIfAllowed(appWidgetId,
-                        info.componentName, options);
-            } else {
-                success = mAppWidgetManager.bindAppWidgetIdIfAllowed(appWidgetId,
-                        info.componentName);
-            }
-            if (success) {
+            if (AppWidgetManagerCompat.bindAppWidgetIdIfAllowed(mAppWidgetManager, appWidgetId,
+                    info.componentName, options)) {
                 addAppWidgetImpl(appWidgetId, info, null, info.info);
             } else {
                 mPendingAddWidgetInfo = info.info;
@@ -2065,10 +2065,10 @@ public final class Launcher extends Activity
             boolean useLaunchAnimation = (v != null) &&
                     !intent.hasExtra(INTENT_EXTRA_IGNORE_LAUNCH_ANIMATION);
             if (useLaunchAnimation) {
-                ActivityOptions opts = ActivityOptions.makeScaleUpAnimation(v, 0, 0,
+                ActivityOptionsCompat opts = ActivityOptionsCompat.makeScaleUpAnimation(v, 0, 0,
                         v.getMeasuredWidth(), v.getMeasuredHeight());
 
-                startActivity(intent, opts.toBundle());
+                ActivityCompat.startActivity(this, intent, opts.toBundle());
             } else {
                 startActivity(intent);
             }
@@ -2392,7 +2392,7 @@ public final class Launcher extends Activity
     }
 
     private void setWorkspaceBackground(boolean workspace) {
-        mLauncherView.setBackground(workspace ?
+        mLauncherView.setBackgroundDrawable(workspace ?
                 mWorkspaceBackgroundDrawable : mBlackBackgroundDrawable);
     }
 
@@ -2619,7 +2619,7 @@ public final class Launcher extends Activity
                 final OnGlobalLayoutListener delayedStart = new OnGlobalLayoutListener() {
                     public void onGlobalLayout() {
                         toView.post(startAnimRunnable);
-                        observer.removeOnGlobalLayoutListener(this);
+                        ViewTreeObserverCompat.removeOnGlobalLayoutListener(observer, this);
                     }
                 };
                 observer.addOnGlobalLayoutListener(delayedStart);

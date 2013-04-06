@@ -26,7 +26,7 @@ import android.content.res.Configuration;
 import android.database.ContentObserver;
 import android.os.Handler;
 
-import com.android.launcher3.R;
+import com.alanjeon.dalinaumlauncher.R;
 
 import java.lang.ref.WeakReference;
 

@@ -155,4 +155,10 @@
     <dimen name="workspace_width_gap_port">0dp</dimen>
     <dimen name="workspace_height_gap_land">0dp</dimen>
     <dimen name="workspace_height_gap_port">0dp</dimen>
+
+    <!-- Default padding to apply to AppWidgetHostViews containing widgets targeting API level 14 and up. -->
+    <dimen name="default_app_widget_padding_left">8dp</dimen>
+    <dimen name="default_app_widget_padding_top">8dp</dimen>
+    <dimen name="default_app_widget_padding_right">8dp</dimen>
+    <dimen name="default_app_widget_padding_bottom">8dp</dimen>
 </resources>
